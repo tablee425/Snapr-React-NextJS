@@ -1,0 +1,9 @@
+# Don't check auto-generated stuff into git
+node_modules
+.next
+
+# Cruft
+npm-debug.log
+.idea
+.env
+.env.production

@@ -1,0 +1,92 @@
+.DayPicker-wrapper {
+    padding-bottom: 0;
+}
+
+.DayPicker-NavBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.DayPicker-Month {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.DayPicker-Caption {
+    padding: 0;
+    margin-top: 9px;
+    text-align: center;
+    color: #888888;
+}
+
+.DayPicker-Caption > div {
+    font-size: 20px;
+}
+
+.DayPicker-Day {
+    position: relative;
+    font-size: 17px;
+    border-left: 1px solid #DEDEDE;
+    border-right: 1px solid #DEDEDE;
+    border-radius: 0;
+    padding: 0;
+}
+
+.DayPicker-Weekday {
+    flex: 1;
+    padding: 6px 0;
+    font-size: 14px;
+}
+
+.DayPicker-Weekdays {
+    margin-top: 30px;
+}
+
+.DayPicker-WeekdaysRow {
+    display: flex;
+    justify-content: space-between;
+}
+
+.DayPicker-Week {
+    border-top: 1px solid #DEDEDE;
+}
+
+.DayPicker-Body .DayPicker-Week:last-child {
+    border-bottom: 2px solid #DEDEDE;
+}
+
+.DayPicker-Body .DayPicker-Week:first-child {
+    border-top: 2px solid #DEDEDE;
+}
+
+.DayPicker-Week .DayPicker-Day:first-child {
+    border-left: none;
+}
+
+.DayPicker-Week .DayPicker-Day:last-child {
+    border-right: none;
+}
+
+.DayPicker-Day {
+    color: #979797;
+}
+
+.DayPicker-Day--today {
+    color: #3d34f1;
+}
+
+.DayPicker-Day--outside {
+    border-left: none;
+    border-right: none;
+}
+
+@media (max-width: 768px) {
+    .DayPicker-Weekdays {
+        margin-top: 10px;
+    }
+}

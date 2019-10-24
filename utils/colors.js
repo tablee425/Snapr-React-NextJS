@@ -1,0 +1,23 @@
+export default {
+  primaryColor: '#ffff67',
+  darkGray: '#979797',
+  placeholderColor: '#B1B1B1',
+
+  orange: '#ffff67',
+  background: '#ffffff',
+  sketchGrey: '#9b9b9b',
+  lightGray: '#f0eff4',
+  lightGrey: '#D8D8D8',
+  whiteGray: '#f3f3f3',
+  black: '#383641',
+  white: '#FFFFFF',
+  red: '#FF0000',
+  transparent: 'rgba(255,255,255,0)',
+  grey: 'grey',
+  blue: '#007aff',
+  icon: '#bebec7',
+  totalBlack: '#000000',
+  termBlue: '#4A90E2',
+  greyForAuthInputText: '#898888',
+  green: '#4EB546',
+};

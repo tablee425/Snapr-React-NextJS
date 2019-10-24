@@ -1,0 +1,1 @@
+export ForgotForm from './Form';

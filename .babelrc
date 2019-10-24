@@ -1,0 +1,26 @@
+{
+  "presets": [
+    "next/babel"
+  ],
+  "plugins": [
+    [
+      "styled-components",
+      {
+        "ssr": true,
+        "displayName": true,
+        "preprocess": false
+      }
+    ],
+    ["babel-plugin-root-import"],
+    ["@babel/plugin-proposal-export-default-from"],
+    ["@babel/plugin-proposal-export-namespace-from"]
+  ],
+  "env": {
+    "development": {
+      "plugins": ["inline-dotenv"]
+    },
+    "production": {
+      "plugins": ["transform-inline-environment-variables"]
+    }
+  }
+}
